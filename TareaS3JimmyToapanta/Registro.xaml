@@ -47,9 +47,9 @@
                 <Entry x:Name="txtNexamen2"  Placeholder="Examen 2" Keyboard="Numeric" Grid.Row="6" Grid.Column="1" TextChanged="txtNexamen2_TextChanged" />
 
                 <Button x:Name="btnParciaL2" Text="Ver Nota P2" Clicked="btnParciaL2_Clicked" Grid.Row="7" Grid.Column="0" />
-                <Label x:Name="notaP2" Text="." FontSize="Title" Grid.Row="7" Grid.Column="1"/>
+                <Label x:Name="notaP2" Text="" FontSize="Title" Grid.Row="7" Grid.Column="1"/>
             </Grid>
-            <Button x:Name="btnInformacion" Text="Mostrar Informacion" Clicked="btnInformacion_Clicked"/>
+            <Button x:Name="btnInformacion" Text="Nota Final" Clicked="btnInformacion_Clicked"/>
 
         </StackLayout>
     </ContentPage.Content>
