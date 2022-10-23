@@ -18,8 +18,8 @@ namespace TareaS3JimmyToapanta
         private void btnIniciar_Clicked(object sender, EventArgs e)
         {
 
-            string usuario = "estudiante2022";
-            string contraseña = "uisrael2022";
+            string usuario = "1";
+            string contraseña = "1";
 
             string tUsuario = txtUsuario.Text;
             string tContraseña = txtContraseña.Text;
