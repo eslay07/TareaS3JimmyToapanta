@@ -3,11 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TareaS3JimmyToapanta.Registro">
     <ContentPage.Content>
+        <ScrollView>
         <StackLayout>
             <Label Text="SISTEMAS DE CAPACITACIONES" 
                 HorizontalOptions="CenterAndExpand" FontSize="Medium" BackgroundColor="Azure" />
 
             <Label Text="Informacion del Estudiante" FontSize="Medium" />
+            <Label x:Name="lbUsuario" Text="" HorizontalTextAlignment="Center" FontSize="14"/>
 
             <Grid>
                 <Grid.RowDefinitions>
@@ -52,5 +54,6 @@
             <Button x:Name="btnInformacion" Text="Nota Final" Clicked="btnInformacion_Clicked"/>
 
         </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

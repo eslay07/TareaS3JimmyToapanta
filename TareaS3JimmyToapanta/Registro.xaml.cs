@@ -17,11 +17,12 @@ namespace TareaS3JimmyToapanta
 
 
        
-        public Registro()
+        public Registro( string usuario)
 
         {
            
             InitializeComponent();
+            lbUsuario.Text = "El usuario conectado es:" +usuario;
         }
 
         private void txtSeguimiento1_TextChanged(object sender, TextChangedEventArgs e)

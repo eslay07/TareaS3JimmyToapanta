@@ -18,8 +18,8 @@ namespace TareaS3JimmyToapanta
         private void btnIniciar_Clicked(object sender, EventArgs e)
         {
 
-            string usuario = "1";
-            string contraseña = "1";
+            string usuario = "estudiante2022";
+            string contraseña = "uisrael2022";
 
             string tUsuario = txtUsuario.Text;
             string tContraseña = txtContraseña.Text;
@@ -29,7 +29,7 @@ namespace TareaS3JimmyToapanta
 
                 DisplayAlert("Registro de Notas", "Bienvenido :)", "Cerrar");
 
-                Navigation.PushAsync(new Registro());//instancia entre ventanas de navegacion
+                Navigation.PushAsync(new Registro(txtUsuario.Text));//instancia entre ventanas de navegacion
             }
             else
 
